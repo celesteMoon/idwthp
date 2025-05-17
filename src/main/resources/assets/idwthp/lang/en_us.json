@@ -1,0 +1,7 @@
+{
+    "key.idwthp.toggle": "Enable/Disable",
+    "category.idwthp.key": "idwthp",
+    "msg.idwthp.attackCanceled": "I don't want to hurt pets!",
+    "msg.idwthp.enable": "idwthp is toggled: On",
+    "msg.idwthp.disable": "idwthp is toggled: Off"
+}

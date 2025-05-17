@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "idwthp",
+	"version": "${version}",
+	"name": "I don't want to hurt pets!",
+	"description": "A client mod which prevent you from accidentally hurting other's pets.",
+	"authors": [
+		"celesteMoon"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "idk",
+	"icon": "assets/idwthp/icon.png",
+	"environment": "client",
+	"entrypoints": {
+		"main": [
+			"celestemoon.idwthp.IDontWantToHurtPets"
+		],
+		"client": [
+			"celestemoon.idwthp.IDontWantToHurtPetsClient"
+		]
+	},
+	"mixins": [
+		"idwthp.mixins.json",
+		{
+			"config": "idwthp.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.16.14",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
