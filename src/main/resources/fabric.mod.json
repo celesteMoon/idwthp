@@ -2,16 +2,16 @@
 	"schemaVersion": 1,
 	"id": "idwthp",
 	"version": "${version}",
-	"name": "I don't want to hurt pets!",
-	"description": "A client mod which prevent you from accidentally hurting other's pets.",
+	"name": "I Don't Want to Hurt Pets!",
+	"description": "A client-side mod which prevent you from accidentally hurting other's pets.",
 	"authors": [
 		"celesteMoon"
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"homepage": "https://modrinth.com/mod/idwthp",
+		"sources": "https://github.com/celesteMoon/idwthp"
 	},
-	"license": "idk",
+	"license": "GPL-3.0",
 	"icon": "assets/idwthp/icon.png",
 	"environment": "client",
 	"entrypoints": {
